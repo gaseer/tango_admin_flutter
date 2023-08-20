@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tango_admin/screens/allMenuScreen.dart';
 import 'package:tango_admin/screens/home_screen.dart';
 import 'package:tango_admin/screens/upload_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 var width;
 var height;
@@ -26,11 +27,25 @@ class _MainScreenState extends State<MainScreen> {
     });
   }
 
+  //Launch website with floating bar
+  void launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     width = MediaQuery.of(context).size.width;
     height = MediaQuery.of(context).size.height;
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => launchURL("https://tangochicken.com.au/"),
+        backgroundColor: Color(0xffc50fa7),
+        child: Icon(Icons.ads_click_sharp),
+      ),
       body: Center(
         child: _widgetOptions[_selectedIndex],
       ),

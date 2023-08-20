@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   )),
               SizedBox(
-                height: width * 0.02,
+                height: width * 0.01,
               ),
 
               //1st ROW
@@ -69,13 +69,22 @@ class HomeScreen extends StatelessWidget {
 
               //2nd ROW
               DishContainer(
-                icon: Icons.brunch_dining_sharp,
+                icon: Icons.bakery_dining_outlined,
                 onTap: () => navigateToScreen(
                     context,
                     const DishListScreen(
                       category: "CHARCOAL ROLLS",
                     )),
-                name: "CHARCOAL ROLLS / BURGERS",
+                name: "CHARCOAL ROLLS",
+              ),
+              DishContainer(
+                icon: Icons.lunch_dining_outlined,
+                onTap: () => navigateToScreen(
+                    context,
+                    const DishListScreen(
+                      category: 'CHARCOAL BURGERS',
+                    )),
+                name: "CHARCOAL BURGERS",
               ),
               SizedBox(
                 width: width * .015,
@@ -92,7 +101,7 @@ class HomeScreen extends StatelessWidget {
               ),
 
               DishContainer(
-                icon: Icons.fastfood,
+                icon: Icons.dining,
                 onTap: () => navigateToScreen(
                     context,
                     const DishListScreen(

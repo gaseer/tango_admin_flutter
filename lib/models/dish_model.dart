@@ -44,8 +44,8 @@ class DishModel {
         imageUrl: map['imageUrl'],
         uploadTime: map['uploadTime'],
         description: map['description'],
-        orderBy: 1,
-        extraItem: '');
+        orderBy: map['orderBy'],
+        extraItem: map['extraItem']);
   }
 }
 
