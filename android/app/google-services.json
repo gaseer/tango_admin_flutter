@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "766755536649",
+    "project_id": "restaurant-web-admin-b0fb8",
+    "storage_bucket": "restaurant-web-admin-b0fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766755536649:android:9c5d92a092bddb90691dd8",
+        "android_client_info": {
+          "package_name": "com.example.restaurant_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-WzXbjvUA7rqPbSPrLTISM3kfBXJ-e3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766755536649:android:22c1af6c095f0baf691dd8",
+        "android_client_info": {
+          "package_name": "com.example.tango_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-WzXbjvUA7rqPbSPrLTISM3kfBXJ-e3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
