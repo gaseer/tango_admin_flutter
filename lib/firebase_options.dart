@@ -51,12 +51,5 @@ class DefaultFirebaseOptions {
         );
     }
   }
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA-WzXbjvUA7rqPbSPrLTISM3kfBXJ-e3s',
-    appId: '1:766755536649:android:22c1af6c095f0baf691dd8',
-    messagingSenderId: '766755536649',
-    projectId: 'restaurant-web-admin-b0fb8',
-    storageBucket: 'restaurant-web-admin-b0fb8.appspot.com',
-  );
+//YOR API KEY HERE
 }
