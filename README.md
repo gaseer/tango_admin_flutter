@@ -1,6 +1,6 @@
 # tango_admin
 
-A new Flutter project.
+A new Flutter project. For tango web
 
 ## Getting Started
 
